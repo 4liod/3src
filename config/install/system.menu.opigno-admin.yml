@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: opigno-admin
+label: 'opigno admin'
+description: ''
+locked: false
