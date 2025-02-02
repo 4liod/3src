@@ -5,6 +5,7 @@ core_version_requirement: ^9 || ^10
 distribution:
   name: "3src"
 install:
+  - syslog
   - views_infinite_scroll
   - better_exposed_filters
   - block
