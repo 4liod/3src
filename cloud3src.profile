@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Enables modules and site configuration for a 3src site installation.
+ * Enables modules and site configuration for a cloud3src site installation.
  */
 
 use Drupal\Core\Form\FormStateInterface;
@@ -12,26 +12,26 @@ use Drupal\Core\Render\Markup;
 /**
  * Implements hook_preprocess_template().
  */
-function 3src_preprocess_install_page(&$variables) {
+function cloud3src_preprocess_install_page(&$variables) {
   $variables['site_version'] = '1.0.1';
 }
 
 /**
  * Implements hook_install_tasks().
  */
-function 3src_install_tasks(&$install_state) {
+function cloud3src_install_tasks(&$install_state) {
   $tasks = [
-    '3src_dashboard_blocks_update' => [
+    'cloud3src_dashboard_blocks_update' => [
       'display_name' => t('Dashboard blocks update'),
       'display' => FALSE,
       'type' => 'normal',
       'function' => 'opigno_dashboard_blocks_update',
     ],
-    '3src_clear_cache' => [
+    'cloud3src_clear_cache' => [
       'display_name' => t('Clear cache'),
       'display' => FALSE,
       'type' => 'normal',
-      'function' => '3src_clear_cache',
+      'function' => 'cloud3src_clear_cache',
     ],
   ];
   return $tasks;
@@ -42,7 +42,7 @@ function 3src_install_tasks(&$install_state) {
  *
  * Allows the profile to alter the site configuration form.
  */
-function 3src_form_install_configure_form_alter(&$form, FormStateInterface $form_state) {
+function cloud3src_form_install_configure_form_alter(&$form, FormStateInterface $form_state) {
   $messenger = \Drupal::messenger();
 
   // Check if Tincan PHP library is installed.
@@ -72,35 +72,35 @@ function 3src_form_install_configure_form_alter(&$form, FormStateInterface $form
 }
 
 /**
- * Vérifiez si une nouvelle version du 3src est disponible.
+ * Vérifiez si une nouvelle version du cloud3src est disponible.
  *
  * @return bool
  *   TRUE if new release is available, FALSE otherwise.
  */
-function 3src_check_3src_updates() {
+function cloud3src_check_cloud3src_updates() {
   // Get all available updates.
   $available = update_get_available();
 
-  if (!isset($available['3src'])) {
+  if (!isset($available['cloud3src'])) {
     return FALSE;
   }
 
-  $all_releases = array_keys($available['3src']['releases']);
+  $all_releases = array_keys($available['cloud3src']['releases']);
   $last_release = $all_releases[0];
-  $current_release = 3src_get_current_3src_release();
+  $current_release = cloud3src_get_current_cloud3src_release();
 
   return $last_release !== $current_release;
 }
 
 /**
- * Détecter la version actuelle du 3src.
+ * Détecter la version actuelle du cloud3src.
  *
  * @return string|bool
- *   La version actuelle de 3src ou FAUX si le profil est incompatible.
+ *   La version actuelle de cloud3src ou FAUX si le profil est incompatible.
  */
-function 3src_get_current_3src_release() {
+function cloud3src_get_current_cloud3src_release() {
   $profile = \Drupal::installProfile();
-  if ($profile !== '3src') {
+  if ($profile !== 'cloud3src') {
     return FALSE;
   }
 
@@ -112,6 +112,6 @@ function 3src_get_current_3src_release() {
 /**
  * Clear cache on installation.
  */
-function 3src_clear_cache() {
+function cloud3src_clear_cache() {
   drupal_flush_all_caches();
 }
