@@ -16,7 +16,7 @@ provider: null
 plugin: 'views_block:opigno_notifications-block_unread_dashboard'
 settings:
   id: 'views_block:opigno_notifications-block_unread_dashboard'
-  label: 'Tableau de bord : Notifications 3src : Tableau de bord - Notifications non lues'
+  label: 'Tableau de bord : Notifications cloud3src : Tableau de bord - Notifications non lues'
   provider: views
   label_display: '0'
   views_label: ''
