@@ -1,0 +1,1792 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2025-01-28 04:58-0500\n"
+"PO-Revision-Date: 2025-01-28 05:12-0500\n"
+"Last-Translator: gpt-po v1.0.6\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+msgid "1 month"
+msgid_plural "@count months"
+msgstr[0] "Un mois"
+msgstr[1] "@count mois"
+
+msgid "Weekly"
+msgstr "Hebdomadaire"
+
+msgid "Avertissement"
+msgid_plural "Warnings"
+msgstr[0] "Avertissement"
+msgstr[1] "Avertissements"
+
+msgid "Restore completed at @time"
+msgstr "Restauration terminée à @time"
+
+msgid "Use this utility to update your database whenever a module, theme, or the core software is updated."
+msgstr "Utilisez cet utilitaire pour mettre à jour votre base de données à chaque fois qu'un module, un thème ou le logiciel principal est mis à jour."
+
+msgid "For more detailed information, see the <a href=\"https://www.drupal.org/upgrade\">upgrading handbook</a>. If you are unsure what these terms mean you should probably contact your hosting provider."
+msgstr "Pour plus d'informations, consultez le <a href=\"https://www.drupal.org/upgrade\">guide de mise à jour</a>. Si vous ne comprenez pas ces termes, contactez probablement votre hébergeur."
+
+msgid "When you have performed the steps above, you may proceed."
+msgstr "Une fois les étapes ci-dessus effectuées, vous pouvez continuer."
+
+msgid "Drupal database update"
+msgstr "Mise à jour de la base de données Drupal"
+
+msgid "<strong>Back up your code</strong>. Hint: when backing up module code, do not leave that backup in the 'modules' or 'sites/*/modules' directories as this may confuse Drupal's auto-discovery mechanism."
+msgstr "<strong>Sauvegarder votre code</strong>. Astuce : lors de la sauvegarde du code d'un module, ne pas laisser cette sauvegarde dans les répertoires 'modules' ou 'sites/*/modules' car cela pourrait perturber le mécanisme de découverte automatique de Drupal."
+
+msgid "Put your site into <a href=\":url\">maintenance mode</a>."
+msgstr "Mettre votre site en <a href=\":url\">mode maintenance</a>."
+
+msgid "<strong>Back up your database</strong>. This process will change your database values and in case of emergency you may need to revert to a backup."
+msgstr "<strong>Sauvegarder votre base de données</strong>. Cette opération va modifier les valeurs de votre base de données et en cas d'urgence vous pourriez avoir besoin de restaurer une sauvegarde."
+
+msgid "Update your files (as described in the handbook page linked above)."
+msgstr "Mettre à jour vos fichiers (comme décrit dans la page de la documentation liée ci-dessus)."
+
+msgid "Installation tasks"
+msgstr "Tâches d'installation"
+
+msgid "Review updates"
+msgstr "Vérifier les mises à jour"
+
+msgid "Review log"
+msgstr "Vérifier le journal"
+
+msgid "No pending updates."
+msgstr "Aucune mise à jour en attente."
+
+msgid "Tasks"
+msgstr "Tâches"
+
+msgid "Your name"
+msgstr "Votre nom"
+
+msgid "Your email address"
+msgstr "Votre adresse de courriel"
+
+msgid "Reset your password"
+msgstr "Réinitialiser votre mot de passe"
+
+msgid "[@form] @subject"
+msgstr "[@form] @subject"
+
+msgid "@name (not verified)"
+msgstr "@name (non vérifié)"
+
+msgid "@sender-name (@sender-url) sent a message using the contact form at @form-url."
+msgstr "@sender-name (@sender-url) a envoyé un message en utilisant le formulaire de contact à @form-url."
+
+msgid "ultimate_cron_lock"
+msgstr "ultimate_cron_lock"
+
+msgid "Cleaned up @count expired locks"
+msgstr "@count verrous expirés nettoyés"
+
+msgid "contact"
+msgstr "contact"
+
+msgid "%sender-name (@sender-from) sent an email regarding %contact_form."
+msgstr "%sender-name (@sender-from) a envoyé un courriel au sujet de %contact_form."
+
+msgid "Devel Logging Mailer"
+msgstr "Devel Logging Mailer"
+
+msgid "Mime Mail mailer"
+msgstr "Mime Mail comme expéditeur"
+
+msgid "Webform PHP mailer"
+msgstr "Webform PHP mailer"
+
+msgid "Select the standard plugin for formatting an email before sending it. This plugin implements <a href=\":interface\">@interface</a> and in special the <a href=\":format\">@format</a> function."
+msgstr "Sélectionner le plugin standard pour formater un courriel avant de l'envoyer. Ce plugin implémente <a href=\":interface\">@interface</a> et en particulier la fonction <a href=\":format\">@format</a>."
+
+msgid "Select the standard plugin for sending an email after formatting it. This plugin implements <a href=\":interface\">@interface</a> and in special the <a href=\":mail\">@mail</a> function."
+msgstr "Sélectionner le plugin standard pour l'envoi d'un courriel après formatage. Ce plugin implémente <a href=\":interface\">@interface</a> et en particulier la fonction <a href=\":mail\">@mail</a>."
+
+msgid "Theme to render the emails"
+msgstr "Thème utilisé pour le rendu des courriels"
+
+msgid "Select the theme that will be used to render emails which are configured for this. This can be either the current theme, the default theme, the domain theme or any active theme."
+msgstr "Sélectionner le thème qui sera utilisé pour afficher les emails configurés pour cela. Ceci peut être le thème actuel, le thème par défaut, le thème du domaine ou n'importe quel thème actif."
+
+msgid "Default Mail System"
+msgstr "Système de courriel par défaut"
+
+msgid "The key is used to identify specific mails if the module sends more than one. Leave empty to use the configuration for all mails sent by the selected module."
+msgstr "La clé est utilisée pour identifier des mails spécifiques si le module en envoie plusieurs. Laisser vide pour utiliser la configuration pour tous les mails envoyés par le module sélectionné."
+
+msgid "Formatter plugin"
+msgstr "Plugin de mise en forme"
+
+msgid "Sender plugin"
+msgstr "Plugin d'envoi"
+
+msgid "No specific configuration yet."
+msgstr "Aucune configuration spécifique n'est définie."
+
+msgid "Module-specific configuration"
+msgstr "Configuration spécifique au module"
+
+msgid "Configure the Mail System"
+msgstr "Configurer le Mail System"
+
+msgid "Administer queues"
+msgstr "Administrer les files"
+
+msgid "Administer Auto Translation module"
+msgstr "Administrer le module Auto Translation"
+
+msgid "Edit BPMN.iO diagrams"
+msgstr "Modifier les diagrammes BPMN.iO"
+
+msgid "Administer blocks"
+msgstr "Administrer les blocs"
+
+msgid "%type_name: Create new content block"
+msgstr "%type_name : Créer un nouveau bloc de contenu"
+
+msgid "%type_name: Delete content block"
+msgstr "%type_name : Supprimer le bloc de contenu"
+
+msgid "%type_name: Delete content block revisions"
+msgstr "%type_name : Supprimer les révisions de blocs de contenu"
+
+msgid "%type_name: Edit content block"
+msgstr "%type_name : Modifier le bloc de contenu"
+
+msgid "%type_name: Revert content block revisions"
+msgstr "%type_name : Rétablir les versions de blocs de contenu"
+
+msgid "%type_name: View content block history pages"
+msgstr "%type_name : Voir l'historique des pages de blocs de contenu"
+
+msgid "Access the Content blocks overview page"
+msgstr "Accéder à la page d'aperçu des blocs de contenu"
+
+msgid "Administer block content"
+msgstr "Administrer le contenu de bloc"
+
+msgid "Administer block types"
+msgstr "Administrer les types de bloc"
+
+msgid "Administer calendar settings"
+msgstr "Administrer les paramètres du calendrier"
+
+msgid "Administer comment types and settings"
+msgstr "Administrer les types de commentaires et leurs paramètres"
+
+msgid "Administer comments and comment settings"
+msgstr "Administrer les commentaires et les paramètres des commentaires"
+
+msgid "Edit own comments"
+msgstr "Modifier ses propres commentaires"
+
+msgid "Post comments"
+msgstr "Poster des commentaires"
+
+msgid "Skip comment approval"
+msgstr "Ne pas soumettre les commentaires à modération"
+
+msgid "View comments"
+msgstr "Voir les commentaires"
+
+msgid "Administer number patterns"
+msgstr "Administrer les motifs de nombre"
+
+msgid "Export configuration"
+msgstr "Exporter la configuration"
+
+msgid "Import configuration"
+msgstr "Importer la configuration"
+
+msgid "Synchronize configuration"
+msgstr "Synchroniser la configuration"
+
+msgid "Administer Consumer entities"
+msgstr "Administrer les entités Consumer"
+
+msgid "Create new Consumer entities"
+msgstr "Créer de nouvelles entités Consumer"
+
+msgid "Delete Consumer entities"
+msgstr "Supprimer des entités Consumer"
+
+msgid "Edit Consumer entities"
+msgstr "Modifier les entités Consumer"
+
+msgid "View Consumer entities"
+msgstr "Voir les entités Consumer"
+
+msgid "Administer contact forms and contact form settings"
+msgstr "Administrer les formulaires de contact et les paramètres des formulaires de contact"
+
+msgid "Use the site-wide contact form"
+msgstr "Utiliser le formulaire de contact du site"
+
+msgid "Use users' personal contact forms"
+msgstr "Utiliser les formulaires de contact personnels des utilisateurs"
+
+msgid "View any unpublished content"
+msgstr "Voir n'importe quel contenu non publié"
+
+msgid "View the latest version"
+msgstr "Voir la dernière version"
+
+msgid "Administer translation settings"
+msgstr "Administrer les paramètres de traduction"
+
+msgid "Create translations"
+msgstr "Créer des traductions"
+
+msgid "Delete translations"
+msgstr "Supprimer les traductions"
+
+msgid "Edit translations"
+msgstr "Modifier les traductions"
+
+msgid "Manage translations for any entity that the user can edit"
+msgstr "Gérer les traductions de n'importe quelle entité que l'utilisateur peut modifier"
+
+msgid "Translate any entity"
+msgstr "Traduire n'importe quelle entité"
+
+msgid "Use contextual links"
+msgstr "Utiliser les liens contextuels"
+
+msgid "Administer devel_generate"
+msgstr "Administrer devel_generate"
+
+msgid "Access Drupal Remote Dashboard"
+msgstr "Accéder au tableau de bord distant de Drupal"
+
+msgid "Administer Core entities"
+msgstr "Administrer les entités du cœur"
+
+msgid "Administer Domain entities"
+msgstr "Administrer les entités Domaine"
+
+msgid "Administer Drupal Remote Dashboard"
+msgstr "Administrer le tableau de bord distant Drupal"
+
+msgid "Administer Host entities"
+msgstr "Administrer les entités Host"
+
+msgid "Administer Major Version entities"
+msgstr "Administrer les entités version majeure"
+
+msgid "Administer Project entities"
+msgstr "Administrer les entités projet"
+
+msgid "Administer Release entities"
+msgstr "Administrer les entités Publication"
+
+msgid "Administer Requirement entities"
+msgstr "Administrer les entités Requirement"
+
+msgid "Administer Script Type entities"
+msgstr "Administrer les entités de type script"
+
+msgid "Administer Script entities"
+msgstr "Administrer les entités script"
+
+msgid "Create new Core entities"
+msgstr "Créer de nouvelles entités du cœur"
+
+msgid "Create new Domain entities"
+msgstr "Créer de nouvelles entités de domaine"
+
+msgid "Create new Host entities"
+msgstr "Créer de nouvelles entités hôtes"
+
+msgid "Create new Major Version entities"
+msgstr "Créer de nouvelles entités version majeure"
+
+msgid "Create new Project entities"
+msgstr "Créer de nouvelles entités Projet"
+
+msgid "Create new Release entities"
+msgstr "Créer de nouvelles entités de publication"
+
+msgid "Create new Requirement entities"
+msgstr "Créer de nouvelles entités Requirement"
+
+msgid "Create new Script Type entities"
+msgstr "Créer de nouveaux types d'entités de script"
+
+msgid "Create new Script entities"
+msgstr "Créer de nouvelles entités script"
+
+msgid "Delete Core entities"
+msgstr "Supprimer des entités du noyau"
+
+msgid "Delete Domain entities"
+msgstr "Supprimer les entités Domaine"
+
+msgid "Delete Host entities"
+msgstr "Supprimer des entités hôtes"
+
+msgid "Delete Major Version entities"
+msgstr "Supprimer les entités de version majeure"
+
+msgid "Delete Project entities"
+msgstr "Supprimer les entités projet"
+
+msgid "Delete Release entities"
+msgstr "Supprimer des entités Publication"
+
+msgid "Delete Requirement entities"
+msgstr "Supprimer des entités exigence"
+
+msgid "Delete Script Type entities"
+msgstr "Supprimer les entités de type script"
+
+msgid "Delete Script entities"
+msgstr "Supprimer des entités script"
+
+msgid "Edit Core entities"
+msgstr "Modifier les entités du cœur de Drupal"
+
+msgid "Edit Domain entities"
+msgstr "Modifier les entités de domaine"
+
+msgid "Edit Host entities"
+msgstr "Modifier les entités Host"
+
+msgid "Edit Major Version entities"
+msgstr "Modifier les entités version majeure"
+
+msgid "Edit Project entities"
+msgstr "Modifier les entités projet"
+
+msgid "Edit Release entities"
+msgstr "Modifier les entités Publication"
+
+msgid "Edit Requirement entities"
+msgstr "Modifier les entités exigences"
+
+msgid "Edit Script Type entities"
+msgstr "Modifier les entités de type script"
+
+msgid "Edit Script entities"
+msgstr "Modifier les entités script"
+
+msgid "Execute action @name"
+msgstr "Exécuter l'action @name"
+
+msgid "Change domain, protocol and port of a domain"
+msgstr "Changer de domaine, de protocole et de port d'un domaine"
+
+msgid "Check status for all projects"
+msgstr "Vérifier le statut de tous les projets"
+
+msgid "DNS lookup for all domains"
+msgstr "Requête DNS pour tous les domaines"
+
+msgid "Error Logs"
+msgstr "Journaux d'erreurs"
+
+msgid "Get installed projects"
+msgstr "Obtenir les projets installés"
+
+msgid "List and render blocks"
+msgstr "Lister et afficher les blocs"
+
+msgid "Maintenance Mode"
+msgstr "Mode maintenance"
+
+msgid "Move domain to a different core"
+msgstr "Transférer le domaine vers un autre cœur"
+
+msgid "Receive domains"
+msgstr "Recevoir des domaines"
+
+msgid "Run update.php"
+msgstr "Lancer update.php"
+
+msgid "Update Projects"
+msgstr "Mettre à jour les projets"
+
+msgid "Update Translations"
+msgstr "Mettre à jour les traductions"
+
+msgid "User Credentials"
+msgstr "Identifiants de l'utilisateur"
+
+msgid "View published Core entities"
+msgstr "Voir les entités Coeur publiées"
+
+msgid "View published Domain entities"
+msgstr "Voir les entités Domain publiées"
+
+msgid "View published Host entities"
+msgstr "Voir les entités Host publiées"
+
+msgid "View published Major Version entities"
+msgstr "Voir les entités de version majeure publiées"
+
+msgid "View published Project entities"
+msgstr "Voir les entités projet publiées"
+
+msgid "View published Release entities"
+msgstr "Voir les entités Publication publiées"
+
+msgid "View published Requirement entities"
+msgstr "Voir les besoins publiés"
+
+msgid "View unpublished Core entities"
+msgstr "Voir les entités Core non publiées"
+
+msgid "View unpublished Domain entities"
+msgstr "Voir les entités Domain non publiées"
+
+msgid "View unpublished Host entities"
+msgstr "Voir les entités hôtes non publiées"
+
+msgid "View unpublished Major Version entities"
+msgstr "Voir les entités en version majeure non publiées"
+
+msgid "View unpublished Project entities"
+msgstr "Voir les entités projet non publiées"
+
+msgid "View unpublished Release entities"
+msgstr "Voir les publications de version non publiées"
+
+msgid "View unpublished Requirement entities"
+msgstr "Voir les entités Requirement non publiées"
+
+msgid "Administer ECA configuration"
+msgstr "Administrer la configuration ECA"
+
+msgid "Administer embed buttons"
+msgstr "Administrer les boutons d'intégration"
+
+msgid "Administer encryption settings"
+msgstr "Administrer les paramètres de chiffrement"
+
+msgid "Access @name pages"
+msgstr "Accéder aux pages @name"
+
+msgid "Administer entity browsers"
+msgstr "Administrer les navigateurs d'entité"
+
+msgid "%entity_bundle_label: Use all print engines"
+msgstr "%entity_bundle_label : Utiliser tous les moteurs d'impression"
+
+msgid "%entity_label: Use all print engines"
+msgstr "%entity_label : Utiliser tous les moteurs d'impression"
+
+msgid "Administer Entity Print"
+msgstr "Administrer Entity Print"
+
+msgid "Bypass entity print access"
+msgstr "Contourner l'accès en lecture de l'entité"
+
+msgid "Access Printable version of View"
+msgstr "Accéder à la version imprimable de la vue"
+
+msgid "Access entity usage statistics"
+msgstr "Accéder aux statistiques d'utilisation de l'entité"
+
+msgid "Access the form to launch batch updates on existing entities"
+msgstr "Accéder au formulaire de lancement de mises à jour par lot sur les entités existantes"
+
+msgid "Administer Entity Usage"
+msgstr "Administrer l'utilisation des entités"
+
+msgid "Administer Facets"
+msgstr "Administrer les facettes"
+
+msgid "%entity_label: Administer display"
+msgstr "%entity_label : Administrer l'affichage"
+
+msgid "%entity_label: Administer fields"
+msgstr "%entity_label : Administration des champs"
+
+msgid "%entity_label: Administer form display"
+msgstr "%entity_label : Administration de l'affichage du formulaire"
+
+msgid "Add, edit, and delete custom display modes."
+msgstr "Ajouter, modifier et supprimer des modes d'affichage personnalisés."
+
+msgid "Access the Files overview page"
+msgstr "Accéder à la page d'aperçu des fichiers"
+
+msgid "Delete any file"
+msgstr "Supprimer n'importe quel fichier"
+
+msgid "Delete own files"
+msgstr "Supprimer ses propres fichiers"
+
+msgid "Administer text formats and filters"
+msgstr "Administrer les formats de texte et les filtres"
+
+msgid "Use the <a href=\":url\">@label</a> text format"
+msgstr "Utiliser le format de texte <a href=\":url\">@label</a>"
+
+msgid "Access the Find Text configuration settings"
+msgstr "Accéder aux paramètres de Find Text"
+
+msgid "Access the Find Text tool"
+msgstr "Accéder à l'outil de recherche de texte"
+
+msgid "Access fontawesome additional settings"
+msgstr "Accéder aux paramètres additionnels de fontawesome"
+
+msgid "Administer gitlab servers"
+msgstr "Administrer les serveurs gitlab"
+
+msgid "%name: Execute arbitrary requests"
+msgstr "%name : Exécuter des requêtes arbitraires"
+
+msgid "%name: Execute persisted requests"
+msgstr "%name : Exécuter les requêtes persistées"
+
+msgid "%name: Use explorer"
+msgstr "%name : Utiliser l'explorateur"
+
+msgid "%name: Use voyager"
+msgstr "%name : Utilise voyager"
+
+msgid "Administer configuration"
+msgstr "Administrer la configuration"
+
+msgid "Bypass graphql access restrictions"
+msgstr "Contourner les restrictions d'accès graphql"
+
+msgid "Access the Group overview page"
+msgstr "Accéder à la page d'aperçu du groupe"
+
+msgid "Bypass group access control"
+msgstr "Contourner le contrôle d'accès du groupe"
+
+msgid "Create restricted H5P content types"
+msgstr "Créer des types de contenus H5P restreints"
+
+msgid "Download enabled for all H5Ps"
+msgstr "Téléchargement activé pour tous les H5Ps"
+
+msgid "Download enabled for own H5Ps"
+msgstr "Téléchargement activé pour ses propres H5Ps"
+
+msgid "Embed enabled for all H5Ps"
+msgstr "Intégration activée pour tous les H5Ps"
+
+msgid "Embed enabled for own H5Ps"
+msgstr "Intégration activée pour ses propres H5Ps"
+
+msgid "Use help pages"
+msgstr "Utiliser les pages d'aide"
+
+msgid "Administer image styles"
+msgstr "Administrer les styles d'image"
+
+msgid "Translate interface text"
+msgstr "Traduire le texte de l'interface"
+
+msgid "Administer key configuration overrides"
+msgstr "Administrer les surcharges de configuration de clé"
+
+msgid "Administer keys"
+msgstr "Administrer les clés"
+
+msgid "Administer languages"
+msgstr "Administrer les langues"
+
+msgid "%type_name: Create new media"
+msgstr "%type_name : Créer un nouveau média"
+
+msgid "%type_name: Delete any media"
+msgstr "%type_name : Supprimer n'importe quel média"
+
+msgid "%type_name: Delete own media"
+msgstr "%type_name : Supprimer ses propres médias"
+
+msgid "%type_name: Edit any media"
+msgstr "%type_name : Modifier n'importe quel média"
+
+msgid "%type_name: Edit own media"
+msgstr "%type_name : Modifier ses propres médias"
+
+msgid "%type_name: View any media revision pages"
+msgstr "%type_name : Voir les pages de révision de n'importe quel média"
+
+msgid "Access media overview"
+msgstr "Accéder à l'aperçu des médias"
+
+msgid "Administer media"
+msgstr "Administrer les médias"
+
+msgid "Administer media types"
+msgstr "Administrer les types de média"
+
+msgid "Create media"
+msgstr "Créer un média"
+
+msgid "Delete %type_name: Delete media revisions"
+msgstr "Supprimer %type_name : Supprimer les révisions de média"
+
+msgid "Delete any media"
+msgstr "Supprimer n'importe quel média"
+
+msgid "Delete own media"
+msgstr "Supprimer ses propres médias"
+
+msgid "Revert %type_name: Revert media revisions"
+msgstr "Rétablir %type_name : Rétablir les versions de media"
+
+msgid "Update any media"
+msgstr "Mettre à jour n'importe quel média"
+
+msgid "Update own media"
+msgstr "Mettre à jour ses propres médias"
+
+msgid "View all media revisions"
+msgstr "Voir toutes les versions de ce média"
+
+msgid "View media"
+msgstr "Voir les médias"
+
+msgid "View own unpublished media"
+msgstr "Voir ses propres médias non publiés"
+
+msgid "Administer message templates"
+msgstr "Administrer les gabarits de message"
+
+msgid "Administer messages"
+msgstr "Administrer les messages"
+
+msgid "View migration messages"
+msgstr "Voir les messages de migration"
+
+msgid "Edit Mime Mail user settings"
+msgstr "Modifier les paramètres utilisateur de Mime Mail"
+
+msgid "Send arbitrary files"
+msgstr "Envoyer des fichiers arbitraires"
+
+msgid "%type_name: Create new content"
+msgstr "%type_name : Créer un nouveau contenu"
+
+msgid "%type_name: Delete any content"
+msgstr "%type_name : Supprimer n'importe quel contenu"
+
+msgid "%type_name: Delete own content"
+msgstr "%type_name : Supprimer ses propres contenus"
+
+msgid "%type_name: Delete revisions"
+msgstr "%type_name : Supprimer les versions"
+
+msgid "%type_name: Edit any content"
+msgstr "%type_name : Modifier n'importe quel contenu"
+
+msgid "%type_name: Edit own content"
+msgstr "%type_name : Modifier ses propres contenus"
+
+msgid "%type_name: Revert revisions"
+msgstr "%type_name : Rétablir les versions"
+
+msgid "%type_name: View revisions"
+msgstr "%type_name : Voir les révisions"
+
+msgid "Access the Content overview page"
+msgstr "Accéder à la page d'aperçu du contenu"
+
+msgid "Administer content"
+msgstr "Administrer le contenu"
+
+msgid "Administer content types"
+msgstr "Administrer les types de contenus"
+
+msgid "Bypass content access control"
+msgstr "Contourner le contrôle d'accès au contenu"
+
+msgid "Revert all revisions"
+msgstr "Rétablir toutes les versions"
+
+msgid "View all revisions"
+msgstr "Voir toutes les versions"
+
+msgid "View own unpublished content"
+msgstr "Voir ses propres contenus non publiés"
+
+msgid "Permit access to using the OpenAI CKEditor plugin."
+msgstr "Permettre l'accès à l'utilisation du plugin OpenAI CKEditor."
+
+msgid "Permit access to using the OpenAI ChatGPT explorer."
+msgstr "Permettre l'accès à l'explorateur OpenAI ChatGPT."
+
+msgid "Permit access to using content tools provided by the OpenAI Content module."
+msgstr "Permettre l'accès à l'utilisation des outils de contenu fournis par le module OpenAI Content."
+
+msgid "Use OpenAI DALL·E"
+msgstr "Utiliser OpenAI DALL·E"
+
+msgid "Permit access to using the OpenAI prompt."
+msgstr "Autoriser l'accès à l'utilisation de la saisie OpenAI."
+
+msgid "Use OpenAI audio"
+msgstr "Utiliser l'audio OpenAI"
+
+msgid "Use OpenAI text to speech"
+msgstr "Utiliser la synthèse vocale OpenAI"
+
+msgid "Access the Certificate overview page"
+msgstr "Accéder à la page d'aperçu des certificats"
+
+msgid "Administer certificates"
+msgstr "Administrer les certificats"
+
+msgid "Create new Certificate entities"
+msgstr "Créer de nouvelles entités certificat"
+
+msgid "Delete Certificate entities"
+msgstr "Supprimer des entités certificat"
+
+msgid "Edit Certificate entities"
+msgstr "Modifier les entités certificat"
+
+msgid "View published Certificate entities"
+msgstr "Voir les entités certificat publiées"
+
+msgid "View unpublished Certificate entities"
+msgstr "Voir les entités certificat non publiées"
+
+msgid "Access media_entity_browser_file_pdf entity browser pages"
+msgstr "Accéder aux pages du navigateur d'entité media_entity_browser_file_pdf"
+
+msgid "Access media_entity_browser_groups entity browser pages"
+msgstr "Accéder aux pages du navigateur d'entité 4LIOD_groups"
+
+msgid "Administer tft"
+msgstr "Administrer tft"
+
+msgid "Create forum content"
+msgstr "Créer du contenu de forum"
+
+msgid "Create learning_path group"
+msgstr "Créer un groupe de parcours de formation"
+
+msgid "Create opigno_course group"
+msgstr "Créer un groupe opigno_course 4liod"
+
+msgid "Create pdf_file media"
+msgstr "Créer un média pdf_file"
+
+msgid "Create terms in duration"
+msgstr "Créer des termes dans la durée"
+
+msgid "Create terms in learning_path_category"
+msgstr "Créer des termes dans learning_path_category"
+
+msgid "Create terms in tags"
+msgstr "Créer des termes dans les étiquettes"
+
+msgid "Create terms in tft_tree"
+msgstr "Créer des termes dans tft_tree"
+
+msgid "Create tft_file media"
+msgstr "Créer un média tft_file"
+
+msgid "Delete any pdf_file media"
+msgstr "Supprimer n'importe quel media pdf_file"
+
+msgid "Delete any tft_file media"
+msgstr "Supprimer n'importe quel média tft_file"
+
+msgid "Delete own forum content"
+msgstr "Supprimer son propre contenu de forum"
+
+msgid "Delete own pdf_file media"
+msgstr "Supprimer ses propres médias pdf_file"
+
+msgid "Delete own tft_file media"
+msgstr "Supprimer ses propres médias tft_file"
+
+msgid "Delete terms in duration"
+msgstr "Supprimer les termes dans la durée"
+
+msgid "Delete terms in learning_path_category"
+msgstr "Supprimer des termes dans learning_path_category"
+
+msgid "Delete terms in tags"
+msgstr "Supprimer des termes dans les étiquettes"
+
+msgid "Delete terms in tft_tree"
+msgstr "Supprimer des termes dans tft_tree"
+
+msgid "Edit any pdf_file media"
+msgstr "Modifier n'importe quel média pdf_file"
+
+msgid "Edit any tft_file media"
+msgstr "Modifier n'importe quel média tft_file"
+
+msgid "Edit own forum content"
+msgstr "Modifier ses propres contenus de forum"
+
+msgid "Edit own pdf_file media"
+msgstr "Modifier ses propres médias pdf_file"
+
+msgid "Edit own tft_file media"
+msgstr "Modifier ses propres médias tft_file"
+
+msgid "Edit terms in duration"
+msgstr "Modifier les termes de durée"
+
+msgid "Edit terms in learning_path_category"
+msgstr "Modifier les termes dans learning_path_category"
+
+msgid "Edit terms in tags"
+msgstr "Modifier les termes dans les étiquettes"
+
+msgid "Edit terms in tft_tree"
+msgstr "Modifier les termes dans tft_tree"
+
+msgid "Manage group content in any group"
+msgstr "Gérer le contenu de groupe dans n'importe quel groupe"
+
+msgid "Manage own commerce_payment_method"
+msgstr "Gérer sa propre commerce_payment_method"
+
+msgid "Message all groups"
+msgstr "Envoyer un message à tous les groupes"
+
+msgid "Message anyone regardless of groups"
+msgstr "Envoyer un message à n'importe qui, indépendamment des groupes"
+
+msgid "Post color resources"
+msgstr "Poster des ressources de couleur"
+
+msgid "Restful get achievements_resource"
+msgstr "Restful obtenir achievements_resource"
+
+msgid "Restful get opigno_calendar_events_resource"
+msgstr "Restful get opigno_calendar_events_resource"
+
+msgid "Restful get opigno_notification_resource"
+msgstr "Restful get opigno_notification_resource"
+
+msgid "Restful get private_message_last_for_threads_resource"
+msgstr "Restful get private_message_last_for_threads_resource"
+
+msgid "Restful get private_message_resource"
+msgstr "Restful get private_message_resource"
+
+msgid "Restful get private_message_threads_resource"
+msgstr "Restful obtient private_message_threads_resource"
+
+msgid "Restful get private_messages_resource"
+msgstr "Restful get private_messages_resource"
+
+msgid "Restful get trainings_catalogue_resource"
+msgstr "Restful get trainings_catalogue_resource"
+
+msgid "Restful patch opigno_notification_resource"
+msgstr "Restful patch opigno_notification_resource"
+
+msgid "Restful patch private_message_thread_update_resource"
+msgstr "Restful patch private_message_thread_update_resource"
+
+msgid "Restful post token_rest_resource"
+msgstr "Restful post token_rest_resource"
+
+msgid "Take modules"
+msgstr "Prendre les modules"
+
+msgid "Tft access file tree"
+msgstr "Accéder à l'arborescence du fichier"
+
+msgid "Tft add a file to any term"
+msgstr "Tft ajouter un fichier à n'importe quel terme"
+
+msgid "Tft add child terms"
+msgstr "Tft ajouter des termes enfants"
+
+msgid "Tft archive child terms"
+msgstr "Transférer les propriétés d'archive aux termes enfants"
+
+msgid "Tft delete child terms"
+msgstr "Tft supprimer les termes enfants"
+
+msgid "Tft reorder terms"
+msgstr "Tft réorganiser les termes"
+
+msgid "Use private messaging system"
+msgstr "Utiliser le système de messagerie privée"
+
+msgid "Use text format basic_html"
+msgstr "Utiliser le format de texte basic_html"
+
+msgid "Use text format opigno_certificate_wysiwyg"
+msgstr "Utiliser le format de texte opigno_certificate_wysiwyg"
+
+msgid "Use text format post_html"
+msgstr "Utiliser le format de texte post_html"
+
+msgid "Use text format restricted_html"
+msgstr "Utiliser le format de texte restricted_html"
+
+msgid "View any group statistics"
+msgstr "Voir les statistiques de n'importe quel groupe"
+
+msgid "View any private profile"
+msgstr "Voir n'importe quel profil privé"
+
+msgid "View commerce_product"
+msgstr "Voir commerce_product"
+
+msgid "View ilt entities"
+msgstr "Voir les entités ilt"
+
+msgid "View own commerce_order"
+msgstr "Voir ses propres commerce_order"
+
+msgid "View own module results"
+msgstr "Voir ses propres résultats de module"
+
+msgid "View published module entities"
+msgstr "Voir les entités du module publiées"
+
+msgid "Access users overview"
+msgstr "Accéder à la vue d'ensemble des utilisateurs"
+
+msgid "Administer ilt entities"
+msgstr "Administrer les entités ilt"
+
+msgid "Administer meeting entities"
+msgstr "Administrer les entités réunion"
+
+msgid "Assign collaborative_features role"
+msgstr "Attribuer le rôle collaborative_features"
+
+msgid "Cancel users by role"
+msgstr "Annuler les utilisateurs par rôle"
+
+msgid "Create opigno_class group"
+msgstr "Créer un groupe opigno_class 4LIOD"
+
+msgid "Create users"
+msgstr "Créer des utilisateurs"
+
+msgid "Edit users by role"
+msgstr "Modifier les utilisateurs par rôle"
+
+msgid "Manage group members in any group"
+msgstr "Gérer les membres du groupe dans n'importe quel groupe"
+
+msgid "Opigno dashboard layout access"
+msgstr "Accès à la mise en page du tableau de bord 4liod"
+
+msgid "Role-assign users by role"
+msgstr "Attribuer des rôles par rôle"
+
+msgid "Score ilt entities"
+msgstr "Scorage entités ilt"
+
+msgid "View users by role"
+msgstr "Voir les utilisateurs par rôle"
+
+msgid "Manage dashboard settings"
+msgstr "Gérer les paramètres du tableau de bord"
+
+msgid "Bypass group validation requirement"
+msgstr "Outrepasser l'exigence de validation du groupe"
+
+msgid "Access media_entity_browser_badge_images entity browser pages"
+msgstr "Accéder aux pages du navigateur d'entité 4LIOD_badge_images"
+
+msgid "Access the Activity overview page"
+msgstr "Accéder à la page d'aperçu des activités"
+
+msgid "Access the Answer overview page"
+msgstr "Accéder à la page d'aperçu des réponses"
+
+msgid "Access the User module status overview page"
+msgstr "Accéder à la page d'aperçu du statut du module Utilisateur"
+
+msgid "Access to score any modules"
+msgstr "Accès pour noter n'importe quel module"
+
+msgid "Administer Activity entities"
+msgstr "Administrer les entités activité"
+
+msgid "Administer Answer entities"
+msgstr "Administrer les entités Answer"
+
+msgid "Administer Module entities"
+msgstr "Administrer les entités du module"
+
+msgid "Administer User module status entities"
+msgstr "Administrer les entités de statut du module User"
+
+msgid "Create new Answer entities"
+msgstr "Créer de nouvelles entités Réponse"
+
+msgid "Create new Module entities"
+msgstr "Créer de nouvelles entités module"
+
+msgid "Create new User module status entities"
+msgstr "Créer de nouvelles entités de statut du module Utilisateur"
+
+msgid "Delete Activity entities"
+msgstr "Supprimer des entités activité"
+
+msgid "Delete Answer entities"
+msgstr "Supprimer des entités Réponse"
+
+msgid "Delete Module entities"
+msgstr "Supprimer les entités du module"
+
+msgid "Delete User module status entities"
+msgstr "Supprimer les entités de statut du module User"
+
+msgid "Edit Activity entities"
+msgstr "Modifier les entités activité"
+
+msgid "Edit Answer entities"
+msgstr "Modifier les entités Réponse"
+
+msgid "Edit Module entities"
+msgstr "Modifier les entités de type module"
+
+msgid "Edit User module status entities"
+msgstr "Modifier les entités de statut du module User"
+
+msgid "Revert all Answer revisions"
+msgstr "Restaurer toutes les versions de la réponse"
+
+msgid "Score unevaluated entities"
+msgstr "Scorage entités non évaluées"
+
+msgid "View all Answer revisions"
+msgstr "Voir toutes les versions de cette réponse"
+
+msgid "View module results"
+msgstr "Voir les résultats du module"
+
+msgid "View published Activity entities"
+msgstr "Voir les entités activité publiées"
+
+msgid "View published Answer entities"
+msgstr "Voir les entités Answer publiées"
+
+msgid "View published User module status entities"
+msgstr "Voir les entités de statut du module utilisateur publiées"
+
+msgid "View unpublished Activity entities"
+msgstr "Voir les entités activité non publiées"
+
+msgid "View unpublished Answer entities"
+msgstr "Voir les entités Answer non publiées"
+
+msgid "View unpublished Module entities"
+msgstr "Voir les entités Module non publiées"
+
+msgid "View unpublished User module status entities"
+msgstr "Voir les entités de statut du module Utilisateur non publiées"
+
+msgid "Add Meeting Result entities"
+msgstr "Ajouter des entités résultat de réunion"
+
+msgid "Add Meeting entities"
+msgstr "Ajouter des entités réunion"
+
+msgid "Add Workspace entities"
+msgstr "Ajouter des entités Espace de travail"
+
+msgid "Administer Meeting Result entities"
+msgstr "Administrer les entités Meeting Result"
+
+msgid "Administer Workspace entities"
+msgstr "Administrer les entités espace de travail"
+
+msgid "Configure Opigno Moxtra"
+msgstr "Configurer 4liod Moxtra"
+
+msgid "Delete Meeting Result entities"
+msgstr "Supprimer des entités résultat de réunion"
+
+msgid "Delete Meeting entities"
+msgstr "Supprimer des entités réunion"
+
+msgid "Delete Workspace entities"
+msgstr "Supprimer des entités espace de travail"
+
+msgid "Edit Meeting Result entities"
+msgstr "Modifier les entités résultat de réunion"
+
+msgid "Edit Meeting entities"
+msgstr "Modifier les entités réunion"
+
+msgid "Edit Workspace entities"
+msgstr "Modifier les entités de l'espace de travail"
+
+msgid "Score Meeting"
+msgstr "Scorage Meeting"
+
+msgid "Start Meeting"
+msgstr "Démarrer la réunion"
+
+msgid "View Meeting Result entities"
+msgstr "Voir les entités résultat de réunion"
+
+msgid "View Meeting entities"
+msgstr "Voir les entités réunion"
+
+msgid "View Workspace entities"
+msgstr "Voir les entités de l'espace de travail"
+
+msgid "Add opigno notification"
+msgstr "Ajouter notification 4LIOD"
+
+msgid "Administer opigno notification"
+msgstr "Administrer notification 4LIOD"
+
+msgid "Delete opigno notification"
+msgstr "Supprimer notification 4LIOD"
+
+msgid "Edit opigno notification"
+msgstr "Modifier notification 4LIOD"
+
+msgid "View opigno notification"
+msgstr "Voir notification 4LIOD"
+
+msgid "create terms in skills"
+msgstr "créer des termes dans les compétences"
+
+msgid "delete terms in skills"
+msgstr "supprimer les termes dans les compétences"
+
+msgid "edit terms in skills"
+msgstr "modifier les termes dans compétences"
+
+msgid "Administer the Opigno TinCan API module"
+msgstr "Administrer le module API 4liod TinCan"
+
+msgid "Administer PDF.js"
+msgstr "Administrer PDF.js"
+
+msgid "Administer URL aliases"
+msgstr "Administrer les alias d'URL"
+
+msgid "Create and edit URL aliases"
+msgstr "Créer et modifier des alias d'URL"
+
+msgid "Bulk delete aliases"
+msgstr "Supprimer en masse les alias"
+
+msgid "Bulk update aliases"
+msgstr "Mise à jour en masse des alias"
+
+msgid "Administer Private Message Ban entities"
+msgstr "Administrer les entités de bannissement de Private Message"
+
+msgid "Administer private message module"
+msgstr "Administrer le module de message privé"
+
+msgid "Administer private messages"
+msgstr "Administrer les messages privés"
+
+msgid "Create new Private Message Ban entities"
+msgstr "Créer de nouvelles entités d'exclusion de message privé"
+
+msgid "Delete Private Message Ban entities"
+msgstr "Supprimer les entités de bannissement de messages privés"
+
+msgid "Delete any private message"
+msgstr "Supprimer n'importe quel message privé"
+
+msgid "Delete own private message"
+msgstr "Supprimer ses propres messages privés"
+
+msgid "Delete private message thread for all participants"
+msgstr "Supprimer la discussion privée pour tous les participants"
+
+msgid "Edit Private Message Ban entities"
+msgstr "Modifier les entités de bannissement de message privé"
+
+msgid "View Private Message Ban entities"
+msgstr "Voir les entités Private Message Ban"
+
+msgid "Process %queue_name queue"
+msgstr "Traiter la file %queue_name"
+
+msgid "Administer REST resource configuration"
+msgstr "Administrer la configuration de la ressource REST"
+
+msgid "Ignore 404 requests"
+msgstr "Ignorer les requêtes 404"
+
+msgid "Administer responsive images"
+msgstr "Administrer les images adaptatives"
+
+msgid "Assign %role role"
+msgstr "Attribuer le rôle %role"
+
+msgid "Run security review checks"
+msgstr "Lancer les vérifications de Security Review"
+
+msgid "Administer shortcuts"
+msgstr "Administrer les raccourcis"
+
+msgid "Edit current shortcut set"
+msgstr "Modifier le jeu de raccourcis actuel"
+
+msgid "Select any shortcut set"
+msgstr "Sélectionner un jeu de raccourcis"
+
+msgid "Use shortcuts"
+msgstr "Utiliser des raccourcis"
+
+msgid "Administer Access Token entities"
+msgstr "Administrer les entités jeton de sécurité"
+
+msgid "Create new Access Token entities"
+msgstr "Créer de nouvelles entités jeton d'accès"
+
+msgid "Debug OAuth2 tokens"
+msgstr "Debug des jetons OAuth2"
+
+msgid "Delete Access Token entities"
+msgstr "Supprimer des entités jeton d'accès"
+
+msgid "Edit Access Token entities"
+msgstr "Modifier les entités jeton d'accès"
+
+msgid "Grant OAuth2 codes"
+msgstr "Accorder des codes OAuth2"
+
+msgid "View Access Token entities"
+msgstr "Voir les entités jeton d'accès"
+
+msgid "Administer Social API admin configuration"
+msgstr "Administrer la configuration d'administration de Social API"
+
+msgid "Administer Social API autoposting"
+msgstr "Administrer l'autopostage Social API"
+
+msgid "Administer Social API blocks"
+msgstr "Administrer les blocs Social API"
+
+msgid "Administer Social API user authentication"
+msgstr "Administrer l'authentification utilisateur Social API"
+
+msgid "Administer Social API widgets"
+msgstr "Administrer les widgets Social API"
+
+msgid "Administer social auth profiles"
+msgstr "Administrer les profils d'authentification sociale"
+
+msgid "Delete own social auth profile"
+msgstr "Supprimer son propre profil d'authentification sociale"
+
+msgid "Administer stripe module"
+msgstr "Administrer le module stripe"
+
+msgid "Issue subrequests"
+msgstr "Problème des sous-requêtes"
+
+msgid "Administer actions"
+msgstr "Administrer les actions"
+
+msgid "Administer menus and menu links"
+msgstr "Administrer les menus et les liens de menu"
+
+msgid "Administer modules"
+msgstr "Administrer les modules"
+
+msgid "Administer site configuration"
+msgstr "Administrer la configuration du site"
+
+msgid "Administer software updates"
+msgstr "Administrer les mises à jour du logiciel"
+
+msgid "Administer themes"
+msgstr "Administrer les thèmes"
+
+msgid "Link to any page"
+msgstr "Lien vers n'importe quelle page"
+
+msgid "Use the administration pages"
+msgstr "Utiliser les pages d'administration"
+
+msgid "View published content"
+msgstr "Voir le contenu publié"
+
+msgid "View site reports"
+msgstr "Voir les rapports du site"
+
+msgid "View the administration theme"
+msgstr "Voir le thème d'administration"
+
+msgid "%vocabulary: Create terms"
+msgstr "%vocabulary : Créer des termes"
+
+msgid "%vocabulary: Delete term revisions"
+msgstr "%vocabulary : Supprimer les révisions du terme"
+
+msgid "%vocabulary: Delete terms"
+msgstr "%vocabulary : Supprimer les termes"
+
+msgid "%vocabulary: Edit terms"
+msgstr "%vocabulary : Modifier les termes"
+
+msgid "%vocabulary: Revert term revisions"
+msgstr "%vocabulary : Rétablir les révisions de terme"
+
+msgid "%vocabulary: View term revisions"
+msgstr "%vocabulary : Voir les révisions du terme"
+
+msgid "Access the taxonomy vocabulary overview page"
+msgstr "Accéder à la page d'aperçu de la hiérarchie"
+
+msgid "Administer vocabularies and terms"
+msgstr "Administrer les vocabulaires et les termes"
+
+msgid "Delete all term revisions"
+msgstr "Supprimer toutes les versions d'un terme"
+
+msgid "Revert all term revisions"
+msgstr "Rétablir toutes les versions de ce terme"
+
+msgid "View all term revisions"
+msgstr "Voir toutes les versions de ce terme"
+
+msgid "View vocabulary labels"
+msgstr "Voir les étiquettes de vocabulaire"
+
+msgid "Use the toolbar"
+msgstr "Utiliser la barre d'outils"
+
+msgid "Administer tour"
+msgstr "Administrer Guide"
+
+msgid "Administer Ultimate Cron"
+msgstr "Administrer Ultimate Cron"
+
+msgid "Run cron jobs"
+msgstr "Exécuter les tâches planifiées (cron)"
+
+msgid "View cron jobs"
+msgstr "Voir les tâches planifiées"
+
+msgid "View software update notifications"
+msgstr "Voir les notifications de mise à jour du logiciel"
+
+msgid "Administer account settings"
+msgstr "Administrer les paramètres de compte"
+
+msgid "Administer roles and permissions"
+msgstr "Administrer les rôles et les permissions"
+
+msgid "Cancel own user account"
+msgstr "Annuler son propre compte utilisateur"
+
+msgid "Change own username"
+msgstr "Changer son propre nom d'utilisateur"
+
+msgid "View user email addresses"
+msgstr "Voir les adresses de courriel des utilisateurs"
+
+msgid "View user information"
+msgstr "Voir les informations utilisateur"
+
+msgid "Bypass all user protections"
+msgstr "Outrepasser toutes les protections de l'utilisateur"
+
+msgid "Bypass user protection for %label"
+msgstr "Contourner la protection de l'utilisateur pour %label"
+
+msgid "Change own account"
+msgstr "Modifier son propre compte"
+
+msgid "Change own email"
+msgstr "Changer son propre courriel"
+
+msgid "Add entity content"
+msgstr "Ajouter un contenu entité"
+
+msgid "Administer video transcode presets"
+msgstr "Administrer les préréglages de transcodage vidéo"
+
+msgid "Delete entity content."
+msgstr "Supprimer le contenu de l'entité."
+
+msgid "Edit entity content"
+msgstr "Modifier le contenu de l'entité"
+
+msgid "View entity content"
+msgstr "Voir le contenu de l'entité"
+
+msgid "Administer views"
+msgstr "Administrer les vues"
+
+msgid "Access the webform help page"
+msgstr "Accéder à la page d'aide de Webform"
+
+msgid "Delete webform submissions for any node"
+msgstr "Supprimer des soumissions de formulaire web pour n'importe quel nœud"
+
+msgid "Delete webform submissions for own node"
+msgstr "Supprimer des soumissions de formulaire web pour son propre nœud"
+
+msgid "Edit webform submissions for any node"
+msgstr "Modifier les soumissions de formulaires web pour n'importe quel nœud"
+
+msgid "Edit webform submissions for own node"
+msgstr "Modifier les soumissions de formulaire web pour son propre nœud"
+
+msgid "View webform submissions for any node"
+msgstr "Voir les soumissions de formulaires web pour n'importe quel nœud"
+
+msgid "View webform submissions for own node"
+msgstr "Voir les soumissions de formulaire web pour son propre nœud"
+
+msgid "Access webform schema"
+msgstr "Accéder au schéma du formulaire web"
+
+msgid "Access the webform submission log"
+msgstr "Accéder au journal des soumissions du formulaire"
+
+msgid "Administer webform templates"
+msgstr "Administrer les gabarits de webform"
+
+msgid "Administer workflows"
+msgstr "Administrer les flux de travail"
+
+msgid "Dropzone upload files"
+msgstr "Transférer des fichiers avec Dropzone"
+
+msgid "Copy UUID"
+msgstr "Copier l'UUID"
+
+msgid "Update the user %name"
+msgstr "Mettre à jour l'utilisateur %name"
+
+msgid "Role settings"
+msgstr "Paramètres du rôle"
+
+msgid "UUID copied to clipboard"
+msgstr "UUID copié dans le presse-papier"
+
+msgid "Purge messages"
+msgstr "Purger les messages"
+
+msgid "Configure how messages will be deleted."
+msgstr "Configurer la suppression des messages."
+
+msgid "Purge method"
+msgstr "Méthode de purge"
+
+msgid "Maximal (approximate) amount of messages to keep."
+msgstr "Nombre maximal (approximatif) de messages à conserver."
+
+msgid "The value in @title has to be greater than @min."
+msgstr "La valeur de @title doit être supérieure à @min."
+
+msgid "Messages quota"
+msgstr "Quota des messages"
+
+msgid "The value in @title has to be greater than @min by steps of @step."
+msgstr "La valeur de @title doit être supérieure à @min par pas de @step."
+
+msgid "Maximal (approximate) amount of messages."
+msgstr "Quantité maximale (approximative) de messages."
+
+msgid "Delete messages older than a given amount of days."
+msgstr "Supprimer les messages plus anciens que le nombre de jours donné."
+
+msgid "Messages older than"
+msgstr "Messages plus anciens de"
+
+msgid "Maximal message age in days."
+msgstr "Âge maximal des messages en jours."
+
+msgid "Purge settings"
+msgstr "Paramètres de purge"
+
+msgid "Auto delete messages referencing the following entities"
+msgstr "Supprimer automatiquement les messages faisant référence aux entités suivantes"
+
+msgid "Messages that reference entities of these types will be deleted when the referenced entity gets deleted."
+msgstr "Les messages qui font référence à des entités de ces types seront supprimés lorsque l'entité référencée sera supprimée."
+
+msgid "Add <span>element</span>"
+msgstr "Ajouter un <span>élément</span>"
+
+msgid "Radios other"
+msgstr "Autres boutons radio"
+
+msgid "Select other"
+msgstr "En sélectionner un(e) autre"
+
+msgid "Email multiple"
+msgstr "Email multiple"
+
+msgid "Toggle details widget state."
+msgstr "Basculer l'état du widget de détails."
+
+msgid "You do not have any messages"
+msgstr "Vous n'avez aucun message"
+
+msgid "openai"
+msgstr "openai"
+
+msgid "There was an issue obtaining a response from OpenAI. The error was @error."
+msgstr "Un problème est survenu lors de la récupération d'une réponse d'OpenAI. L'erreur est la suivante : @error."
+
+msgid "Translate @entity_label"
+msgstr "Traduire @entity_label"
+
+msgid "Send yourself a copy"
+msgstr "M'envoyer une copie"
+
+msgid "Preparing to download selected updates"
+msgstr "Préparation au téléchargement des mises à jour sélectionnées"
+
+msgid "Downloading updates"
+msgstr "Téléchargement des mises à jour"
+
+msgid "Updates downloaded successfully."
+msgstr "Mises à jour téléchargées avec succès."
+
+msgid "Back up your database and site before you continue. <a href=\":backup_url\">Learn how</a>."
+msgstr "Sauvegardez votre base de données et votre site avant de continuer. <a href=\":backup_url\">En savoir plus</a>."
+
+msgid "Perform updates with site in maintenance mode (strongly recommended)"
+msgstr "Effectuer les mises à jour avec le site en mode maintenance (fortement recommandé)"
+
+msgid "Ready to update"
+msgstr "Prêt à être mis à jour"
+
+msgid "Preparing to update your site"
+msgstr "Préparation à la mise à jour de votre site"
+
+msgid "Update was completed successfully. Your site has been taken out of maintenance mode."
+msgstr "La mise à jour s'est terminée avec succès. Votre site a été sorti du mode maintenance."
+
+msgid "Update manager"
+msgstr "Gestionnaire de mise à jour"
+
+msgid "Added / updated %project_name successfully"
+msgstr "%project_name a été ajouté / mis à jour avec succès"
+
+msgid "Your modules have been downloaded and updated."
+msgstr "Vos modules ont été téléchargés et mis à jour."
+
+msgid "Run database updates"
+msgstr "Lancer les mises à jour de la base de données"
+
+msgid "No batch with ID @batch exists."
+msgstr "Aucun traitement par lot (batch) avec l'identifiant (ID) @batch n'existe."
+
+msgid "form"
+msgstr "formulaire"
+
+msgid "Encryption is not configured yet! Go to <a href=\"@link\">settings</a> to fix this!"
+msgstr "L'encryption n'est pas encore configurée ! Aller dans <a href=\"@link\">les paramètres</a> pour corriger cela !"
+
+msgid "Encryption profile"
+msgstr "Profil de chiffrement"
+
+msgid "Select your encryption profile here. If there is no profile available yet, go to <a href=\"@link\">Encryption profiles</a> to create one."
+msgstr "Sélectionnez votre profil de chiffrement ici. S'il n'y a pas de profil disponible, allez sur <a href=\"@link\">Profils de chiffrement</a> pour en créer un."
+
+msgid "Automatically lock hacked releases"
+msgstr "Verrouiller automatiquement les versions compromis"
+
+msgid "Cleanup un-used releases during cron"
+msgstr "Nettoie les versions inutilisées lors du cron"
+
+msgid "Cleanup un-used major releases during cron"
+msgstr "Nettoyer les versions majeures inutilisées lors de l'exécution de la tâche planifiée (cron)"
+
+msgid "Cleanup un-used projects during cron"
+msgstr "Nettoie les projets inutilisés lors du cron"
+
+msgid "Database User Name"
+msgstr "Nom d'utilisateur de la base de données"
+
+msgid "Database Password"
+msgstr "Mot de passe de la base de données"
+
+msgid "Local Copy Settings"
+msgstr "Paramètres de copie locale"
+
+msgid "Encryption Profile"
+msgstr "Profil de chiffrement"
+
+msgid "Encryption method"
+msgstr "Méthode de chiffrement"
+
+msgid "No encryption profiles are available. <a href=\":link\">Add a profile</a>."
+msgstr "Aucun profil de chiffrement n'est disponible. <a href=\":link\">Ajouter un profil</a>."
+
+msgid "Add Encryption Profile"
+msgstr "Ajouter un profil de chiffrement"
+
+msgid "Choose an available key. If the desired key is not listed, <a href=\":link\">create a new key</a>."
+msgstr "Choisir une clé disponible. Si la clé désirée n'est pas listée, <a href=\":link\">créer une nouvelle clé</a>."
+
+msgid "Label for the encryption profile."
+msgstr "Libellé du profil de chiffrement."
+
+msgid "Encryption Method"
+msgstr "Méthode de chiffrement"
+
+msgid "Select the method used for encryption"
+msgstr "Sélectionner la méthode utilisée pour le chiffrement"
+
+msgid "Encryption Key"
+msgstr "Clé de chiffrement"
+
+msgid "- Select a key -"
+msgstr "- Sélectionner une clé -"
+
+msgid "Add encryption profile"
+msgstr "Ajouter un profil de chiffrement"
+
+msgid "Events and actions for the Project Browser."
+msgstr "Évènements et actions pour le Project Browser."
+
+msgid "Module %name has been installed."
+msgid_plural "@count modules have been installed: %names."
+msgstr[0] "Un module a été installé."
+msgstr[1] "@count modules ont été installés : %names."
+
+msgid "Authenticated AES (Real AES)"
+msgstr "Authentifié AES (Vrai AES)"
+
+msgid "Key name"
+msgstr "Nom de la clé"
+
+msgid "A short description of the key."
+msgstr "Une courte description de la clé."
+
+msgid "Key type"
+msgstr "Type de clé"
+
+msgid "User/password"
+msgstr "Nom d'utilisateur/mot de passe"
+
+msgid "Authentication (Multivalue)"
+msgstr "Authentification (Multivalué)"
+
+msgid "A generic key type to use for a password or API key that does not belong to any other defined key type."
+msgstr "Un type de clé générique à utiliser pour un mot de passe ou une clé API qui n'appartient à aucun autre type de clé défini."
+
+msgid "Type settings"
+msgstr "Paramètres du type"
+
+msgid "Key provider"
+msgstr "Fournisseur de clé"
+
+msgid "The Configuration key provider stores the key in Drupal's configuration system."
+msgstr "Le fournisseur de clé de configuration stocke la clé dans le système de configuration de Drupal."
+
+msgid "Provider settings"
+msgstr "Paramètres du fournisseur"
+
+msgid "Key value"
+msgstr "Valeur de la clé"
+
+msgid "Add key"
+msgstr "Ajouter une clé"
+
+msgid "A generic key type to use for an encryption key that does not belong to any other defined key type."
+msgstr "Un type de clé générique à utiliser pour une clé de chiffrement qui n'appartient à aucun autre type de clé défini."
+
+msgid "Key size"
+msgstr "Taille de la clé"
+
+msgid "The size of the key in bits, with 8 bits per byte."
+msgstr "La taille de la clé en bits, avec 8 bits par octet."
+
+msgid "Key size (other value)"
+msgstr "Taille de la clé (autre valeur)"
+
+msgid "Enter a custom key size in bits."
+msgstr "Saisir une taille de clé personnalisée en bits."
+
+msgid "Base64-encoded"
+msgstr "Encodé en Base64"
+
+msgid "Checking this will store the key with Base64 encoding."
+msgstr "En cochant cette case, la clé sera stockée avec un encodage Base64."
+
+msgid "Check this if the key value being submitted has been Base64-encoded."
+msgstr "Cochez ceci si la valeur de la clé soumise a été encodée en Base64."
+
+msgid "A key type to store a user/password pair."
+msgstr "Un type de clé pour stocker une paire utilisateur/mot de passe."
+
+msgid "The key %name has been added."
+msgstr "La clé %name a été ajoutée."
+
+msgid "Add Config Override"
+msgstr "Ajouter une surcharge de config"
+
+msgid "Add Key"
+msgstr "Ajouter une clé"
+
+msgid "Be extremely careful when editing a key! It may result in broken site functionality. Are you sure you want to edit this key?"
+msgstr "Soyez très prudent lorsque vous modifiez une clé ! Cela peut entraîner un dysfonctionnement du site. Êtes-vous sûr de vouloir modifier cette clé ?"
+
+msgid "Edit key %label"
+msgstr "Modifier la clé %label"
+
+msgid "The selected key size does not match the actual size of the key."
+msgstr "La taille de clé sélectionnée ne correspond pas à la taille actuelle de la clé."
+
+msgid "The Environment key provider allows a key to be retrieved from an environment variable."
+msgstr "Le fournisseur de clé d'environnement permet de récupérer une clé depuis une variable d'environnement."
+
+msgid "Environment variable"
+msgstr "Variable d'environnement"
+
+msgid "Name of the environment variable."
+msgstr "Nom de la variable d'environnement."
+
+msgid "Strip trailing line breaks"
+msgstr "Retirer les sauts de ligne en fin de texte"
+
+msgid "Check this to remove any trailing line breaks from the variable. Leave unchecked if there is a chance that a line break could be a valid character in the key."
+msgstr "Cochez pour supprimer les sauts de ligne en fin de variable. Laissez décoché si un saut de ligne peut être un caractère valide dans la clé."
+
+msgid "Check this if the key in the variable is Base64-encoded. <em>Note: Naturally Base64-encoded values, such as RSA keys, do not need to be marked as Base64-encoded unless they have been additionally encoded for another reason.</em>"
+msgstr "Cochez ceci si la clé dans la variable est encodée en Base64. <em>Note : Les valeurs naturellement encodées en Base64, telles que les clés RSA, n'ont pas besoin d'être marquées comme encodées en Base64 à moins qu'elles aient été encodées pour une autre raison.</em>"
+
+msgid "The selected key provider does not accept a value. See the provider's description for instructions on how and where to store the key value."
+msgstr "Le fournisseur de clé sélectionné n'accepte pas de valeur. Veuillez consulter la description du fournisseur pour savoir comment et où stocker la valeur de la clé."
+
+msgid "The File key provider allows a key to be stored in a file, preferably outside of the web root."
+msgstr "Le fournisseur de clé fichier permet de stocker une clé dans un fichier, de préférence en dehors de la racine web."
+
+msgid "File location"
+msgstr "Emplacement du fichier"
+
+msgid "The location of the file in which the key will be stored. The path may be absolute (e.g., %abs), relative to the Drupal directory (e.g., %rel), or defined using a stream wrapper (e.g., %str)."
+msgstr "L'emplacement du fichier dans lequel la clé sera stockée. Le chemin peut être absolu (ex. : %abs), relatif au répertoire Drupal (ex. : %rel), ou défini en utilisant un gestionnaire de flux (ex. : %str)."
+
+msgid "Check this to remove any trailing line breaks from the file. Leave unchecked if there is a chance that a line break could be a valid character in the key."
+msgstr "Cochez pour supprimer les sauts de ligne en fin de fichier. Laissez décoché si un saut de ligne peut être un caractère valide dans la clé."
+
+msgid "Check this if the key in the file is Base64-encoded."
+msgstr "Cochez ceci si la clé dans le fichier est encodée en Base64."
+
+msgid "Saved the %label encryption profile."
+msgstr "Le profil de chiffrement %label a été enregistré."
+
+msgid "The key %name has been updated."
+msgstr "La clé %name a été mise à jour."
+
+msgid "@count disallowed HTML string(s) in files: @files."
+msgstr "@count chaînes HTML non autorisée(s) dans les fichiers : @files."
