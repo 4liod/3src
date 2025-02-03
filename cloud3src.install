@@ -66,7 +66,7 @@ function cloud3src_install() {
   \Drupal::service('file_system')->saveData($image, 'public://4LIOD-login-image.jpg', FileSystemInterface::EXISTS_REPLACE);
 
   // Copy user login page background image to public folder.
-  $image = file_get_contents(\Drupal::service('extension.list.profile')->getPath('3src') . "/images/4LIOD_Image_connexion_1600-829_2.jpg");
+  $image = file_get_contents(\Drupal::service('extension.list.profile')->getPath('cloud3src') . "/images/4LIOD_Image_connexion_1600-829_2.jpg");
   \Drupal::service('file_system')->saveData($image, 'public://4LIOD_Image_connexion_1600-829_2.jpg', TRUE);
 }
 
@@ -163,7 +163,7 @@ function cloud3src_update_9018() {
   }
 
   // Import the relevant configuration.
-  _cloud3src_apply_update('profile', '3src', 'config/optional', [
+  _cloud3src_apply_update('profile', 'cloud3src', 'config/optional', [
     'queue_mail.settings',
   ]);
   _cloud3src_apply_update('module', 'opigno_cron', 'config/rewrite', [
