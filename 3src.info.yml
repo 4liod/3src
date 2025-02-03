@@ -123,5 +123,6 @@ install:
   - views_templates
   - views_ui
   - forum
+  - backup_migrate
 themes:
   - aristotle
