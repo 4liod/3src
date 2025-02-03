@@ -8,9 +8,9 @@ aristotle_home_page_settings:
 aristotle_menu_source: main
 aristotle_menu_show_for_anonymous: 1
 logo:
-  path: themes/aristotle/assets/3src.svg
+  path: themes/aristotle/assets/4LIOD.svg
   use_default: 0
-logo_path_anonymous: 3src-white.svg
+logo_path_anonymous: 4LIOD-white.svg
 features:
   node_user_picture: 0
   comment_user_picture: 1
