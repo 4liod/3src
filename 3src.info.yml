@@ -27,7 +27,6 @@ install:
   - datetime_range
   - devel
   - devel_generate
-  - backup_migrate
   - dropzonejs
   - dynamic_page_cache
   - editor
