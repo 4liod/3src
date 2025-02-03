@@ -1,6 +1,6 @@
 {
-    "name": "4liod/3src",
-    "description": "profile 3src",
+    "name": "4liod/cloud3src",
+    "description": "profile cloud3src",
     "type": "drupal-profile",
     "license": "GPL-2.0-or-later",
     "authors": [],
@@ -11,7 +11,7 @@
         "drupal/calendar": "^1.0@alpha",
         "drupal/media_entity_browser": "^2.0@alpha",
         "drupal/pdf": "^1.2",
-        "drupal/commerce": "^2.27.0",
+        "drupal/commerce": "^3.0",
         "drupal/better_exposed_filters": "^6.0",
         "drupal/ckeditor_bgimage": "^3.0",
         "drupal/colorbox": "^2.0",
