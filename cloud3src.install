@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Install, update and uninstall functions for the profile 3src.
+ * Install, update and uninstall functions for the profile cloud3src.
  */
 
 use Drupal\Component\Plugin\Exception\PluginNotFoundException;
@@ -22,7 +22,7 @@ use Drupal\user\UserInterface;
  *
  * @throws \Drupal\Core\Extension\MissingDependencyException
  */
-function 3src_install() {
+function cloud3src_install() {
   \Drupal::service('module_installer')->install([
     'dblog',
     'opigno_alter_entity_autocomplete',
@@ -46,12 +46,12 @@ function 3src_install() {
 
   // Set theme logo path.
   $theme_path = \Drupal::service('extension.list.theme')->getPath('aristotle');
-  $logo_path = $theme_path . "/assets/3src.svg";
+  $logo_path = $theme_path . "/assets/4LIOD.svg";
   $config->getEditable('aristotle.settings')
     ->set('logo.path', $logo_path)
     ->save(TRUE);
 
-  $logo_second = "3src-white.svg";
+  $logo_second = "4LIOD-white.svg";
   $config->getEditable('aristotle.settings')
     ->set('logo_path_anonymous', $logo_second)
     ->save(TRUE);
@@ -62,18 +62,18 @@ function 3src_install() {
   $user->save();
 
   // Copy user login page background image to public folder.
-  $image = file_get_contents(\Drupal::service('extension.list.theme')->getPath('aristotle') . "/assets/3src-login-image.jpg");
-  \Drupal::service('file_system')->saveData($image, 'public://3src-login-image.jpg', FileSystemInterface::EXISTS_REPLACE);
+  $image = file_get_contents(\Drupal::service('extension.list.theme')->getPath('aristotle') . "/assets/4LIOD-login-image.jpg");
+  \Drupal::service('file_system')->saveData($image, 'public://4LIOD-login-image.jpg', FileSystemInterface::EXISTS_REPLACE);
 
   // Copy user login page background image to public folder.
-  $image = file_get_contents(\Drupal::service('extension.list.profile')->getPath('3src') . "/images/3src_Image_connexion_1600-829_2.jpg");
-  \Drupal::service('file_system')->saveData($image, 'public://3src_Image_connexion_1600-829_2.jpg', TRUE);
+  $image = file_get_contents(\Drupal::service('extension.list.profile')->getPath('3src') . "/images/4LIOD_Image_connexion_1600-829_2.jpg");
+  \Drupal::service('file_system')->saveData($image, 'public://4LIOD_Image_connexion_1600-829_2.jpg', TRUE);
 }
 
 /**
  * Implements hook_requirements().
  */
-function 3src_requirements($phase) {
+function cloud3src_requirements($phase) {
   $requirements = [];
 
   // Test if the Private File System Path is set.
@@ -107,14 +107,14 @@ function 3src_requirements($phase) {
 /**
  * Implements hook_update_last_removed().
  */
-function 3src_update_last_removed() {
+function cloud3src_update_last_removed() {
   return 9015;
 }
 
 /**
  * Fix field definition errors for entities.
  */
-function 3src_update_9016() {
+function cloud3src_update_9016() {
   $update_manager = \Drupal::entityDefinitionUpdateManager();
   $changes = $update_manager->getChangeList();
   if (!$changes) {
@@ -142,7 +142,7 @@ function 3src_update_9016() {
       $update_manager->updateEntityType($entity_type);
     }
     catch (PluginNotFoundException $e) {
-      watchdog_exception('3src_exception', $e);
+      watchdog_exception('cloud3src_exception', $e);
     }
   }
 }
@@ -150,7 +150,7 @@ function 3src_update_9016() {
 /**
  * Move notifications emails into a queue.
  */
-function 3src_update_9018() {
+function cloud3src_update_9018() {
 
   // Check if queue_mail module exists and if not, install it.
   if (!\Drupal::moduleHandler()->moduleExists('queue_mail')) {
@@ -163,10 +163,10 @@ function 3src_update_9018() {
   }
 
   // Import the relevant configuration.
-  _3src_apply_update('profile', '3src', 'config/optional', [
+  _cloud3src_apply_update('profile', '3src', 'config/optional', [
     'queue_mail.settings',
   ]);
-  _3src_apply_update('module', 'opigno_cron', 'config/rewrite', [
+  _cloud3src_apply_update('module', 'opigno_cron', 'config/rewrite', [
     'ultimate_cron.job.ultimate_cron_queue_queue_mail',
   ]);
 }
@@ -174,10 +174,10 @@ function 3src_update_9018() {
 /**
  * Update opigno_admin block.
  */
-function 3src_update_9019() {
+function cloud3src_update_9019() {
   // Roles checking has been removed from the block visibility rules because it
   // conflicted with the custom access check (see opigno_module.block_access()).
-  _3src_apply_update('theme', 'aristotle', 'config/optional', [
+  _cloud3src_apply_update('theme', 'aristotle', 'config/optional', [
     'block.block.opigno_admin',
   ]);
 }
@@ -185,11 +185,11 @@ function 3src_update_9019() {
 /**
  * Update access to group class manager views.
  */
-function 3src_update_9020() {
-  _3src_apply_update('module', 'opigno_class', 'config/optional', [
+function cloud3src_update_9020() {
+  _cloud3src_apply_update('module', 'opigno_class', 'config/optional', [
     'views.view.opigno_classes',
   ]);
-  _3src_apply_update('module', 'opigno_module', 'config/optional', [
+  _cloud3src_apply_update('module', 'opigno_module', 'config/optional', [
     'views.view.opigno_score_modules',
   ]);
 }
@@ -197,7 +197,7 @@ function 3src_update_9020() {
 /**
  * Configs update helper function.
  */
-function _3src_apply_update($type, $name, $path, $ymls) {
+function _cloud3src_apply_update($type, $name, $path, $ymls) {
   $theme_path = sprintf("%s/%s/", \Drupal::service('extension.list.' . $type)->getPath($name), $path);
   $config_factory = \Drupal::configFactory();
   $config_storage = \Drupal::service('config.storage');
@@ -221,7 +221,7 @@ function _3src_apply_update($type, $name, $path, $ymls) {
 /**
  * Configs remove helper function.
  */
-function _3src_apply_delete($configs) {
+function _cloud3src_apply_delete($configs) {
   $config_factory = \Drupal::configFactory();
   /** @var \Drupal\Core\Config\StorageInterface $config_storage */
   $config_storage = \Drupal::service('config.storage');
@@ -234,7 +234,7 @@ function _3src_apply_delete($configs) {
 /**
  * Module disable helper function.
  */
-function _3src_update_module_disable($modules) {
+function _cloud3src_update_module_disable($modules) {
   $module_data = \Drupal::config('core.extension')->get('module');
   foreach ($modules as $item) {
     \Drupal::database()->delete('key_value')
@@ -259,13 +259,13 @@ function _3src_update_module_disable($modules) {
 /**
  * Update dependencies.
  */
-function 3src_update_dependencies() {
+function cloud3src_update_dependencies() {
   $dependencies['opigno_calendar'][9001] = [
-    '3src' => 9001,
+    'cloud3src' => 9001,
   ];
   $dependencies['opigno_learning_path'][9001] = [
     'opigno_catalog' => 9001,
-    '3src' => 9001,
+    'cloud3src' => 9001,
   ];
 
   return $dependencies;
