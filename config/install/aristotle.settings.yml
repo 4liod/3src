@@ -2,7 +2,7 @@ aristotle_home_page_settings:
   aristotle_use_home_page_markup: 1
   aristotle_home_page_slides:
     1:
-      aristotle_home_page_image_path: 3src-login-image.jpg
+      aristotle_home_page_image_path: 4LIOD-login-image.jpg
       aristotle_home_page_image_upload: {  }
     actions: {  }
 aristotle_menu_source: main
