@@ -43,7 +43,6 @@ install:
   - field_ui
   - file
   - filter
-  - group
   - h5p
   - h5peditor
   - help
@@ -59,7 +58,6 @@ install:
   - mimemail
   - node
   - simple_gmap
-  - twig_field_value
   - opigno_calendar
   - opigno_calendar_event
   - opigno_calendar_event_group
