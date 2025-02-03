@@ -51,6 +51,9 @@ install:
   - inline_entity_form
   - link
   - mailsystem
+  - gitlab_api
+  - drd
+  - drd_install_core
   - media
   - media_entity_browser
   - menu_ui
