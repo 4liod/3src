@@ -1,9 +1,9 @@
-name: 3src
+name: cloud3src
 type: profile
-description: "Installer 3src embarqué avec les modules non dépendant."
+description: "Installer cloud3src embarqué avec les modules non dépendant."
 core_version_requirement: ^9 || ^10
 distribution:
-  name: "3src"
+  name: "cloud3src"
 install:
   - syslog
   - views_infinite_scroll
