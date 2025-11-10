@@ -126,8 +126,7 @@ Comprehensive documentation is available in the `docs/` directory:
 - **[FEATURES.md](docs/FEATURES.md)** - Complete feature reference
 - **[THEME.md](docs/THEME.md)** - Aristotle theme customization
 - **[CONFIGURATION.md](docs/CONFIGURATION.md)** - Configuration and settings
-- **[USER_GUIDE.md](docs/USER_GUIDE.md)** - End-user documentation
-- **[DEVELOPMENT.md](docs/DEVELOPMENT.md)** - Developer guide
+- **[IMAGE_INVENTORY.md](docs/IMAGE_INVENTORY.md)** - Complete image asset inventory
 
 ## Project Structure
 
