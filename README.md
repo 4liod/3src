@@ -125,6 +125,7 @@ Comprehensive documentation is available in the `docs/` directory:
 - **[INSTALLATION.md](docs/INSTALLATION.md)** - Detailed installation guide
 - **[FEATURES.md](docs/FEATURES.md)** - Complete feature reference
 - **[THEME.md](docs/THEME.md)** - Aristotle theme customization
+- **[OPIGNO_THEME.md](docs/OPIGNO_THEME.md)** - Opigno-specific theme integration
 - **[CONFIGURATION.md](docs/CONFIGURATION.md)** - Configuration and settings
 - **[IMAGE_INVENTORY.md](docs/IMAGE_INVENTORY.md)** - Complete image asset inventory
 
